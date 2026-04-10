@@ -1,0 +1,101 @@
+2026-04-09 19:03:23,547 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-09 19:04:54,771 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-09 19:08:07,685 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-09 19:27:55,557 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-09 19:33:54,895 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-10 22:58:28,968 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-10 23:00:47,334 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-10 23:07:12,750 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-10 23:08:55,711 | INFO | [ALERT] t=00002 | score=1.000 | risk=High | src=37.198.53.27 -> dst=249.14.187.61 | proto=DNS | size=599.3258535247425 | duration=2.686577231067472 | logins=3
+2026-04-10 23:08:58,254 | INFO | [ALERT] t=00018 | score=0.881 | risk=High | src=179.14.239.33 -> dst=42.160.156.158 | proto=SSH | size=1324.1466707427126 | duration=4.4395584837370325 | logins=1
+2026-04-10 23:08:59,057 | INFO | [ALERT] t=00023 | score=0.654 | risk=Medium | src=207.68.236.38 -> dst=207.41.53.155 | proto=UDP | size=1293.7707069021826 | duration=2.2728476396757986 | logins=0
+2026-04-10 23:08:59,216 | INFO | [ALERT] t=00024 | score=0.681 | risk=Medium | src=220.101.155.222 -> dst=163.236.75.7 | proto=ICMP | size=1022.1671311168268 | duration=2.32253771559193 | logins=2
+2026-04-10 23:08:59,696 | INFO | [ALERT] t=00027 | score=0.845 | risk=High | src=230.48.44.198 -> dst=10.0.0.5 | proto=TCP | size=1500.0 | duration=1.9109984242957785 | logins=2
+2026-04-10 23:09:49,271 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-10 23:11:22,038 | INFO | [ALERT] t=00004 | score=0.717 | risk=High | src=134.211.69.224 -> dst=114.8.64.235 | proto=TCP | size=5084.300404916768 | duration=1.1538121377619062 | logins=11
+2026-04-10 23:11:26,612 | INFO | [ALERT] t=00030 | score=0.675 | risk=Medium | src=78.141.155.6 -> dst=163.144.207.107 | proto=UDP | size=5179.13130725173 | duration=3.207267329398944 | logins=11
+2026-04-10 23:11:31,883 | INFO | [ALERT] t=00061 | score=0.896 | risk=High | src=62.164.100.212 -> dst=230.40.193.157 | proto=TCP | size=5798.408087887722 | duration=4.051947617722918 | logins=16
+2026-04-10 23:11:32,899 | INFO | [ALERT] t=00067 | score=0.849 | risk=High | src=129.71.186.219 -> dst=48.183.75.209 | proto=UDP | size=5840.52351680609 | duration=1.899845767028305 | logins=18
+2026-04-10 23:11:34,501 | INFO | [ALERT] t=00076 | score=0.864 | risk=High | src=230.153.197.158 -> dst=163.247.202.211 | proto=TCP | size=5100.461162777234 | duration=2.47396515733242 | logins=19
+2026-04-10 23:11:34,816 | INFO | [ALERT] t=00078 | score=0.886 | risk=High | src=18.251.167.177 -> dst=30.18.44.155 | proto=ICMP | size=4740.134893193103 | duration=3.4086528114806707 | logins=13
+2026-04-10 23:11:35,130 | INFO | [ALERT] t=00080 | score=0.896 | risk=High | src=223.56.108.217 -> dst=218.17.216.92 | proto=TCP | size=4984.289760858655 | duration=2.0781401868746867 | logins=19
+2026-04-10 23:11:37,552 | INFO | [ALERT] t=00094 | score=0.832 | risk=High | src=74.207.222.108 -> dst=250.13.163.43 | proto=TCP | size=3645.634548643692 | duration=2.6402313542109144 | logins=11
+2026-04-10 23:11:40,444 | INFO | [ALERT] t=00110 | score=0.909 | risk=High | src=67.253.76.93 -> dst=234.125.184.172 | proto=ICMP | size=4214.010085169352 | duration=2.7695992857942326 | logins=19
+2026-04-10 23:11:42,303 | INFO | [ALERT] t=00121 | score=0.791 | risk=High | src=130.49.216.232 -> dst=123.86.171.77 | proto=TCP | size=4742.691959026094 | duration=4.1941094030473725 | logins=16
+2026-04-10 23:11:43,477 | INFO | [ALERT] t=00128 | score=0.774 | risk=High | src=10.95.6.57 -> dst=221.194.40.38 | proto=UDP | size=5160.879237371974 | duration=2.4416982460539693 | logins=10
+2026-04-10 23:11:44,588 | INFO | [ALERT] t=00135 | score=0.760 | risk=High | src=62.41.223.243 -> dst=128.51.182.144 | proto=ICMP | size=4209.127114279266 | duration=2.586534838876724 | logins=9
+2026-04-10 23:11:47,254 | INFO | [ALERT] t=00151 | score=0.800 | risk=High | src=21.92.127.80 -> dst=183.179.107.188 | proto=UDP | size=5884.420746366387 | duration=3.4395012306202264 | logins=10
+2026-04-10 23:11:48,915 | INFO | [ALERT] t=00161 | score=0.799 | risk=High | src=67.153.127.237 -> dst=32.178.169.194 | proto=TCP | size=4948.689322725606 | duration=3.6955377575657775 | logins=12
+2026-04-10 23:11:51,420 | INFO | [ALERT] t=00176 | score=0.907 | risk=High | src=165.149.207.145 -> dst=163.15.232.195 | proto=UDP | size=3401.439452374314 | duration=4.40159859294643 | logins=19
+2026-04-10 23:11:53,225 | INFO | [ALERT] t=00186 | score=0.829 | risk=High | src=59.96.190.103 -> dst=24.197.169.234 | proto=ICMP | size=4449.479723857821 | duration=2.6307228607537967 | logins=9
+2026-04-10 23:11:53,776 | INFO | [ALERT] t=00189 | score=0.793 | risk=High | src=99.23.209.129 -> dst=46.86.141.253 | proto=ICMP | size=4322.430921345338 | duration=2.6079873600808705 | logins=9
+2026-04-10 23:28:35,821 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-11 01:05:41,624 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-11 01:05:49,999 | INFO | [ALERT] t=00002 | score=1.000 | risk=High | src=37.198.53.27 -> dst=249.14.187.61 | proto=DNS | size=599.3258535247425 | duration=2.686577231067472 | logins=3
+2026-04-11 01:05:54,706 | INFO | [ALERT] t=00018 | score=0.881 | risk=High | src=179.14.239.33 -> dst=42.160.156.158 | proto=SSH | size=1324.1466707427126 | duration=4.4395584837370325 | logins=1
+2026-04-11 01:05:56,255 | INFO | [ALERT] t=00023 | score=0.654 | risk=Medium | src=207.68.236.38 -> dst=207.41.53.155 | proto=UDP | size=1293.7707069021826 | duration=2.2728476396757986 | logins=0
+2026-04-11 01:05:56,520 | INFO | [ALERT] t=00024 | score=0.681 | risk=Medium | src=220.101.155.222 -> dst=163.236.75.7 | proto=ICMP | size=1022.1671311168268 | duration=2.32253771559193 | logins=2
+2026-04-11 01:05:57,392 | INFO | [ALERT] t=00027 | score=0.845 | risk=High | src=230.48.44.198 -> dst=10.0.0.5 | proto=TCP | size=1500.0 | duration=1.9109984242957785 | logins=2
+2026-04-11 01:07:29,213 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-11 01:08:12,933 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-11 01:15:30,606 | INFO | [ALERT] t=00002 | score=1.000 | risk=High | src=37.198.53.27 -> dst=249.14.187.61 | proto=DNS | size=599.3258535247425 | duration=2.686577231067472 | logins=3
+2026-04-11 01:15:31,511 | INFO | [ALERT] t=00005 | score=0.488 | risk=Medium | src=12.241.239.33 -> dst=86.89.92.74 | proto=TCP | size=941.080164845479 | duration=3.37592022210045 | logins=0
+2026-04-11 01:15:33,689 | INFO | [ALERT] t=00011 | score=0.545 | risk=Medium | src=247.149.10.123 -> dst=233.168.148.25 | proto=HTTP | size=959.5970937093564 | duration=0.6727771164450235 | logins=1
+2026-04-11 01:15:35,904 | INFO | [ALERT] t=00018 | score=0.881 | risk=High | src=179.14.239.33 -> dst=42.160.156.158 | proto=SSH | size=1324.1466707427126 | duration=4.4395584837370325 | logins=1
+2026-04-11 01:15:37,487 | INFO | [ALERT] t=00023 | score=0.654 | risk=Medium | src=207.68.236.38 -> dst=207.41.53.155 | proto=UDP | size=1293.7707069021826 | duration=2.2728476396757986 | logins=0
+2026-04-11 01:15:37,806 | INFO | [ALERT] t=00024 | score=0.681 | risk=Medium | src=220.101.155.222 -> dst=163.236.75.7 | proto=ICMP | size=1022.1671311168268 | duration=2.32253771559193 | logins=2
+2026-04-11 01:15:38,464 | INFO | [ALERT] t=00026 | score=0.477 | risk=Medium | src=27.133.7.252 -> dst=233.143.171.191 | proto=TCP | size=759.8876327992311 | duration=1.1286838354241402 | logins=4
+2026-04-11 01:15:38,807 | INFO | [ALERT] t=00027 | score=0.845 | risk=High | src=230.48.44.198 -> dst=10.0.0.5 | proto=TCP | size=1500.0 | duration=1.9109984242957785 | logins=2
+2026-04-11 01:17:50,275 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-11 01:19:28,763 | INFO | [ALERT] t=00004 | score=0.717 | risk=High | src=134.211.69.224 -> dst=114.8.64.235 | proto=TCP | size=5084.300404916768 | duration=1.1538121377619062 | logins=11
+2026-04-11 01:19:37,003 | INFO | [ALERT] t=00030 | score=0.675 | risk=Medium | src=78.141.155.6 -> dst=163.144.207.107 | proto=UDP | size=5179.13130725173 | duration=3.207267329398944 | logins=11
+2026-04-11 01:19:47,205 | INFO | [ALERT] t=00061 | score=0.896 | risk=High | src=62.164.100.212 -> dst=230.40.193.157 | proto=TCP | size=5798.408087887722 | duration=4.051947617722918 | logins=16
+2026-04-11 01:19:49,073 | INFO | [ALERT] t=00067 | score=0.849 | risk=High | src=129.71.186.219 -> dst=48.183.75.209 | proto=UDP | size=5840.52351680609 | duration=1.899845767028305 | logins=18
+2026-04-11 01:19:52,132 | INFO | [ALERT] t=00076 | score=0.864 | risk=High | src=230.153.197.158 -> dst=163.247.202.211 | proto=TCP | size=5100.461162777234 | duration=2.47396515733242 | logins=19
+2026-04-11 01:19:52,822 | INFO | [ALERT] t=00078 | score=0.886 | risk=High | src=18.251.167.177 -> dst=30.18.44.155 | proto=ICMP | size=4740.134893193103 | duration=3.4086528114806707 | logins=13
+2026-04-11 01:19:53,496 | INFO | [ALERT] t=00080 | score=0.896 | risk=High | src=223.56.108.217 -> dst=218.17.216.92 | proto=TCP | size=4984.289760858655 | duration=2.0781401868746867 | logins=19
+2026-04-11 01:19:58,284 | INFO | [ALERT] t=00094 | score=0.832 | risk=High | src=74.207.222.108 -> dst=250.13.163.43 | proto=TCP | size=3645.634548643692 | duration=2.6402313542109144 | logins=11
+2026-04-11 01:20:03,612 | INFO | [ALERT] t=00110 | score=0.909 | risk=High | src=67.253.76.93 -> dst=234.125.184.172 | proto=ICMP | size=4214.010085169352 | duration=2.7695992857942326 | logins=19
+2026-04-11 01:20:07,256 | INFO | [ALERT] t=00121 | score=0.791 | risk=High | src=130.49.216.232 -> dst=123.86.171.77 | proto=TCP | size=4742.691959026094 | duration=4.1941094030473725 | logins=16
+2026-04-11 01:20:09,447 | INFO | [ALERT] t=00128 | score=0.774 | risk=High | src=10.95.6.57 -> dst=221.194.40.38 | proto=UDP | size=5160.879237371974 | duration=2.4416982460539693 | logins=10
+2026-04-11 01:20:11,669 | INFO | [ALERT] t=00135 | score=0.760 | risk=High | src=62.41.223.243 -> dst=128.51.182.144 | proto=ICMP | size=4209.127114279266 | duration=2.586534838876724 | logins=9
+2026-04-11 01:20:16,942 | INFO | [ALERT] t=00151 | score=0.800 | risk=High | src=21.92.127.80 -> dst=183.179.107.188 | proto=UDP | size=5884.420746366387 | duration=3.4395012306202264 | logins=10
+2026-04-11 01:20:20,149 | INFO | [ALERT] t=00161 | score=0.799 | risk=High | src=67.153.127.237 -> dst=32.178.169.194 | proto=TCP | size=4948.689322725606 | duration=3.6955377575657775 | logins=12
+2026-04-11 01:20:25,168 | INFO | [ALERT] t=00176 | score=0.907 | risk=High | src=165.149.207.145 -> dst=163.15.232.195 | proto=UDP | size=3401.439452374314 | duration=4.40159859294643 | logins=19
+2026-04-11 01:20:28,308 | INFO | [ALERT] t=00186 | score=0.829 | risk=High | src=59.96.190.103 -> dst=24.197.169.234 | proto=ICMP | size=4449.479723857821 | duration=2.6307228607537967 | logins=9
+2026-04-11 01:20:29,262 | INFO | [ALERT] t=00189 | score=0.793 | risk=High | src=99.23.209.129 -> dst=46.86.141.253 | proto=ICMP | size=4322.430921345338 | duration=2.6079873600808705 | logins=9
+2026-04-11 01:23:15,292 | WARNING | TensorFlow/Keras not available; falling back to Isolation Forest only.
+2026-04-11 01:24:25,999 | INFO | [ALERT] t=00019 | score=0.488 | risk=Medium | src=219.81.46.88 -> dst=181.62.192.138 | proto=HTTP | size=1240.9655574534772 | duration=1.2949889312036031 | logins=6
+2026-04-11 01:24:26,312 | INFO | [ALERT] t=00020 | score=0.531 | risk=Medium | src=70.149.220.152 -> dst=237.168.227.249 | proto=ICMP | size=1123.7962454929216 | duration=0.8101783620766033 | logins=0
+2026-04-11 01:24:28,145 | INFO | [ALERT] t=00026 | score=0.459 | risk=Medium | src=93.129.185.108 -> dst=239.150.54.44 | proto=HTTP | size=1008.721067865912 | duration=1.0383272200603768 | logins=5
+2026-04-11 01:24:28,445 | INFO | [ALERT] t=00027 | score=1.000 | risk=High | src=156.3.168.233 -> dst=192.168.1.1 | proto=TCP | size=1500.0 | duration=25.144223001984766 | logins=8
+2026-04-11 01:24:29,089 | INFO | [ALERT] t=00029 | score=0.522 | risk=Medium | src=9.73.36.221 -> dst=244.133.198.82 | proto=SSH | size=509.7604117513893 | duration=0.5687188037117473 | logins=1
+2026-04-11 01:24:31,267 | INFO | [ALERT] t=00036 | score=0.436 | risk=Medium | src=63.189.220.236 -> dst=13.92.139.112 | proto=DNS | size=727.9069294423101 | duration=1.1143871874091804 | logins=1
+2026-04-11 01:24:36,178 | INFO | [ALERT] t=00051 | score=0.667 | risk=Medium | src=88.40.90.135 -> dst=192.168.1.1 | proto=SSH | size=1328.5748688119777 | duration=3.16913084028147 | logins=8
+2026-04-11 01:24:38,043 | INFO | [ALERT] t=00057 | score=0.498 | risk=Medium | src=252.84.113.82 -> dst=205.211.98.61 | proto=UDP | size=301.4349237748821 | duration=2.3725730645586576 | logins=0
+2026-04-11 01:24:39,321 | INFO | [ALERT] t=00061 | score=0.472 | risk=Medium | src=26.224.38.86 -> dst=143.28.230.117 | proto=ICMP | size=961.9164752772358 | duration=2.2011862987978 | logins=0
+2026-04-11 01:24:42,750 | INFO | [ALERT] t=00072 | score=0.542 | risk=Medium | src=18.158.99.77 -> dst=151.43.92.168 | proto=TCP | size=1408.7683256827668 | duration=7.475201695148155 | logins=3
+2026-04-11 01:24:43,655 | INFO | [ALERT] t=00075 | score=0.545 | risk=Medium | src=202.141.119.105 -> dst=5.165.20.11 | proto=ICMP | size=711.6181049106556 | duration=1.4991371208064528 | logins=0
+2026-04-11 01:24:45,166 | INFO | [ALERT] t=00080 | score=0.433 | risk=Medium | src=21.213.230.143 -> dst=221.201.181.62 | proto=SSH | size=nan | duration=3.735326111242293 | logins=0
+2026-04-11 01:24:47,304 | INFO | [ALERT] t=00087 | score=0.509 | risk=Medium | src=59.183.191.193 -> dst=254.122.7.126 | proto=ICMP | size=1037.10698020745 | duration=3.7120644220392056 | logins=1
+2026-04-11 01:24:50,256 | INFO | [ALERT] t=00096 | score=0.625 | risk=Medium | src=114.234.227.192 -> dst=151.30.59.77 | proto=DNS | size=1211.987496264858 | duration=9.64507674077634 | logins=2
+2026-04-11 01:24:51,498 | INFO | [ALERT] t=00100 | score=0.437 | risk=Medium | src=214.28.152.97 -> dst=244.197.236.217 | proto=SSH | size=610.9130849336668 | duration=1.214250054682317 | logins=1
+2026-04-11 01:24:52,111 | INFO | [ALERT] t=00102 | score=0.511 | risk=Medium | src=173.28.237.39 -> dst=13.184.246.174 | proto=ICMP | size=631.9667446432852 | duration=1.409650129616841 | logins=2
+2026-04-11 01:24:53,378 | INFO | [ALERT] t=00106 | score=0.496 | risk=Medium | src=160.180.76.203 -> dst=128.128.30.23 | proto=ICMP | size=690.6341489787019 | duration=0.4581596193292529 | logins=0
+2026-04-11 01:24:54,999 | INFO | [ALERT] t=00111 | score=0.438 | risk=Medium | src=35.84.166.120 -> dst=37.91.134.70 | proto=HTTPS | size=1355.324712703277 | duration=2.354792414892867 | logins=0
+2026-04-11 01:24:59,027 | INFO | [ALERT] t=00123 | score=0.452 | risk=Medium | src=144.213.58.78 -> dst=161.141.235.147 | proto=ICMP | size=740.8461792244411 | duration=0.6261681259205372 | logins=2
+2026-04-11 01:24:59,344 | INFO | [ALERT] t=00124 | score=0.647 | risk=Medium | src=46.194.254.36 -> dst=10.0.0.10 | proto=DNS | size=1386.1530535096674 | duration=3.424114097523606 | logins=4
+2026-04-11 01:25:00,307 | INFO | [ALERT] t=00127 | score=0.465 | risk=Medium | src=36.209.108.66 -> dst=79.209.233.21 | proto=HTTPS | size=478.6006706537979 | duration=3.36186388371072 | logins=3
+2026-04-11 01:25:02,903 | INFO | [ALERT] t=00135 | score=0.483 | risk=Medium | src=59.205.120.23 -> dst=10.0.0.5 | proto=SSH | size=1282.7674805074475 | duration=4.021795969531531 | logins=3
+2026-04-11 01:25:06,213 | INFO | [ALERT] t=00145 | score=0.548 | risk=Medium | src=132.157.4.227 -> dst=19.172.184.119 | proto=ICMP | size=797.0904194459476 | duration=4.664305131375589 | logins=1
+2026-04-11 01:25:07,478 | INFO | [ALERT] t=00149 | score=0.770 | risk=High | src=129.158.63.71 -> dst=172.16.0.3 | proto=SSH | size=1437.3545909513653 | duration=17.620098192394444 | logins=4
+2026-04-11 01:25:08,438 | INFO | [ALERT] t=00152 | score=0.450 | risk=Medium | src=198.225.53.171 -> dst=71.216.221.85 | proto=UDP | size=415.7904898449537 | duration=3.550879486088901 | logins=0
+2026-04-11 01:25:10,020 | INFO | [ALERT] t=00157 | score=0.453 | risk=Medium | src=145.209.19.56 -> dst=217.87.17.176 | proto=HTTPS | size=1044.8902856191194 | duration=1.2685093698657326 | logins=5
+2026-04-11 01:25:11,931 | INFO | [ALERT] t=00163 | score=0.652 | risk=Medium | src=70.63.110.219 -> dst=10.0.0.5 | proto=SSH | size=1444.1118769348254 | duration=1.2702472690016176 | logins=7
+2026-04-11 01:25:15,233 | INFO | [ALERT] t=00173 | score=0.477 | risk=Medium | src=247.97.28.147 -> dst=100.223.177.70 | proto=ICMP | size=1046.8147917006982 | duration=2.200031739487564 | logins=1
+2026-04-11 01:25:15,875 | INFO | [ALERT] t=00175 | score=0.639 | risk=Medium | src=188.76.10.88 -> dst=192.168.1.1 | proto=ICMP | size=1500.0 | duration=5.889325366800959 | logins=2
+2026-04-11 01:25:16,200 | INFO | [ALERT] t=00176 | score=0.451 | risk=Medium | src=235.201.200.224 -> dst=10.168.173.37 | proto=HTTPS | size=944.3490286592352 | duration=3.785081808523939 | logins=2
+2026-04-11 01:25:17,323 | INFO | [ALERT] t=00179 | score=0.501 | risk=Medium | src=16.188.1.44 -> dst=183.240.239.12 | proto=DNS | size=477.0093377075592 | duration=0.5880464730178313 | logins=2
+2026-04-11 01:25:19,364 | INFO | [ALERT] t=00185 | score=0.539 | risk=Medium | src=159.24.201.138 -> dst=108.185.202.218 | proto=HTTPS | size=496.08541516983047 | duration=7.539809107963247 | logins=1
+2026-04-11 01:25:19,706 | INFO | [ALERT] t=00186 | score=0.459 | risk=Medium | src=61.191.252.108 -> dst=110.102.98.170 | proto=DNS | size=1020.5167088813812 | duration=4.764627516959104 | logins=3
+2026-04-11 01:25:23,364 | INFO | [ALERT] t=00197 | score=0.450 | risk=Medium | src=97.186.105.204 -> dst=216.88.107.150 | proto=SSH | size=996.9257853155036 | duration=1.7442884691804013 | logins=5
