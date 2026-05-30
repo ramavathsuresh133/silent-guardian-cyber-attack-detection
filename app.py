@@ -1,5 +1,6 @@
 import time
 from dataclasses import asdict
+from io import BytesIO
 from typing import Tuple
 
 import pandas as pd
@@ -13,6 +14,79 @@ st.set_page_config(
     page_icon="🛡️",
     layout="wide",
 )
+
+st.markdown("""
+<style>
+    /* Main background */
+    .stApp {
+        background-color: #0f172a;
+        background-image: radial-gradient(circle at 15% 50%, rgba(56, 189, 248, 0.05), transparent 25%),
+                          radial-gradient(circle at 85% 30%, rgba(239, 68, 68, 0.05), transparent 25%);
+    }
+
+    /* Glassmorphism for sidebar */
+    [data-testid="stSidebar"] {
+        background-color: rgba(30, 41, 59, 0.7) !important;
+        backdrop-filter: blur(10px);
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Glowing primary button */
+    .stButton > button[kind="primary"] {
+        background: linear-gradient(90deg, #38bdf8, #818cf8);
+        border: none;
+        color: white;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4);
+    }
+    .stButton > button[kind="primary"]:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(56, 189, 248, 0.6);
+        background: linear-gradient(90deg, #0ea5e9, #6366f1);
+    }
+
+    /* Standard buttons hover effects */
+    .stButton > button {
+        border-radius: 8px;
+        transition: all 0.2s ease;
+    }
+    .stButton > button:hover {
+        transform: translateY(-1px);
+        border-color: #38bdf8;
+        color: #38bdf8;
+    }
+
+    /* Headers and Titles */
+    h1 {
+        background: linear-gradient(90deg, #38bdf8, #818cf8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 800 !important;
+    }
+
+    /* Metric cards (KPIs) hover animations */
+    [data-testid="metric-container"] {
+        background: rgba(30, 41, 59, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+    [data-testid="metric-container"]:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+    [data-testid="stMetricValue"] {
+        color: #38bdf8 !important;
+    }
+
+    /* Animated Tabs */
+    .stTabs [data-baseweb="tab"] {
+        transition: all 0.3s;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 
 def color_anomaly_rows(row: pd.Series):
@@ -77,6 +151,23 @@ def _init_state():
     st.session_state.setdefault("last_cfg_key", None)
     st.session_state.setdefault("sim_running", False)
     st.session_state.setdefault("sim_idx", 0)
+
+
+def read_csv_robust(uploaded_file) -> pd.DataFrame:
+    """
+    Kaggle/Windows CSVs are often cp1252/latin1 (e.g. byte 0x92). Try a few common encodings.
+    """
+    raw = uploaded_file.getvalue()
+    last_err = None
+    for enc in ("utf-8", "utf-8-sig", "cp1252", "latin1"):
+        try:
+            return pd.read_csv(BytesIO(raw), encoding=enc)
+        except UnicodeDecodeError as e:
+            last_err = e
+            continue
+    if last_err is not None:
+        raise last_err
+    raise UnicodeDecodeError("utf-8", b"", 0, 1, "Unable to decode CSV")
 
 
 def realtime_simulation_ui(results: pd.DataFrame, sleep_s: float = 0.15, max_rows: int = 200):
@@ -176,7 +267,6 @@ def main():
         sim_sleep = st.slider("Stream delay (seconds)", 0.0, 1.0, 0.15, 0.05)
         sim_max_rows = st.slider("Max rows to stream", 50, 1000, 200, 50)
 
-    # Simulation before Results so each rerun does not redraw heavy charts before streaming a row.
     tabs = st.tabs(["Data", "Simulation", "Results"])
 
     with tabs[0]:
@@ -203,7 +293,15 @@ def main():
         if uploaded is not None:
             sig = (getattr(uploaded, "name", ""), getattr(uploaded, "size", None))
             if st.session_state.upload_sig != sig:
-                st.session_state.df = pd.read_csv(uploaded)
+                try:
+                    st.session_state.df = read_csv_robust(uploaded)
+                except UnicodeDecodeError:
+                    st.error(
+                        "CSV encoding error (not UTF-8). "
+                        "This is common for Kaggle/Windows datasets. "
+                        "Try exporting/resaving as UTF-8, or upload again."
+                    )
+                    st.stop()
                 st.session_state.df_source = ("upload", getattr(uploaded, "name", "uploaded.csv"))
                 st.session_state.upload_sig = sig
                 st.session_state.results = None
